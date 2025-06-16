@@ -10,4 +10,6 @@
         public const DB_SENHA_MYSQL = "";
         public const DB_PORTA_MYSQL = "3306";
 
+        public const CHAVE_JWT = "nHjJU9HcLguHn++Sjr2yFx+XF1+sas8etrq47CecnYk=";
+
     }

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+       
+        <title>Thaistar | Login</title>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+        <!-- Toastify -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+    
+    </head>
+
+    <body>
+        
+        <div class="container d-flex justify-content-center align-items-center vh-100">
+        
+            <div class="card p-4 shadow" style="width: 100%; max-width: 400px;">
+        
+                <h4 class="text-center mb-4">Login - Funcionário</h4>
+
+                <form id="controllers/core.php">
+        
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email" required autocomplete="username" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="senha">Senha</label>
+                        <input type="password" class="form-control" id="senha" name="senha" placeholder="Digite sua senha" required autocomplete="current-password" />
+                    </div>
+
+                    <button id="botaoEntrarFuncionario" type="button" class="btn btn-primary btn-block">Entrar</button>
+        
+                </form>
+        
+            </div>
+        
+        </div>
+
+        <!-- Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+        <!-- toastify -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        
+        <!-- thaistar -->
+        <script type="module" src="assets/js/login.js"></script>
+    
+    </body>
+
+</html>
