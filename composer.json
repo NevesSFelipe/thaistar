@@ -1,0 +1,12 @@
+{
+    "name": "felipe/thaistar",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "src\\Configs\\": "src/configs/",
+            "src\\Controllers\\": "src/controllers/",
+            "src\\Models\\": "src/models/",
+            "src\\Helpers\\": "src/helpers/"
+        }
+    }
+}

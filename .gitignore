@@ -1,0 +1,4 @@
+/src/configs/VariaveisGlobaisExample.php
+/vendor
+.env
+composer.lock
