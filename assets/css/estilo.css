@@ -1,0 +1,24 @@
+:root {
+  --snow: #FCF6FBff;
+  --rose-quartz: #AA8CA9ff;
+  --silver: #B5B3B5ff;
+  --eggplant: #6B596Bff;
+  --pale-purple: #F7E0F6ff;
+}
+
+body {
+  background-color: var(--snow);
+}
+
+.texto-acesso-adm {
+    color: var(--rose-quartz);
+}
+
+.btnLogin {
+    background-color: var(--rose-quartz);
+}
+
+.btnLogin:hover {
+    background-color: var(--pale-purple);
+}
+
