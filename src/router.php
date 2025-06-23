@@ -35,6 +35,20 @@ switch($endPoint) {
 
     break;
 
+    case 'parametrizador-horarios':
+
+        $controller = new FuncionarioController;
+        $controller->parametrizadorHorario();
+
+    break;
+
+    case 'salvar-horarios-atendimento':
+
+        $controller = new FuncionarioController;
+        $controller->salvarHorariosAtendimento();
+
+    break;
+
     default:
         
         $controller = new HomeController;
