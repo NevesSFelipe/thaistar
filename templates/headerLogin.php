@@ -10,6 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/mainLogin.css">
     
     </head>
 
@@ -33,8 +34,8 @@
                 
                 </ul>
                 
-                <span class="navbar-text">
-                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                <span class="navbar-text icone-logout">
+                    <i id="iconeLogout" class="fa-solid fa-arrow-right-from-bracket"></i>
                 </span>
             
             </div>

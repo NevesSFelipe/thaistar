@@ -5,6 +5,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="https://kit.fontawesome.com/910e6444fa.js" crossorigin="anonymous"></script>
+        <script type="module" src="assets/js/mainLogin.js"></script>
 
     </body>
 

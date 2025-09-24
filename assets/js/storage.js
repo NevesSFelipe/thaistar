@@ -35,3 +35,9 @@ function decodeJwt(token) {
     const payload = token.split(".")[1];
     return JSON.parse(atob(payload));
 }
+
+export function deslogarUsuario() {
+    localStorage.removeItem("token");
+    localStorage.removeItem("exp");
+    localStorage.removeItem("nomeFuncionario");
+}
