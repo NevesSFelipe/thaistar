@@ -7,7 +7,7 @@ export function exibirMsg(icon, title, text, diretorio)
         timer: 1500,
         showConfirmButton: false
     }).then(() => {
-        window.location.href = `${diretorio}.html`;
+        window.location.href = `${diretorio}.php`;
     });
 
 }
